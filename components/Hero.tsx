@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Left Column: Heading, Description & CTAs */}
         <div className="lg:col-span-8">
-          <h2 className="text-pear font-semibold uppercase tracking-[0.3em] mb-4 text-sm">Expert-Led Legal Training</h2>
+          <h2 className="text-pear font-semibold uppercase tracking-[0.3em] mb-4 text-sm">Expert-Led Contract Training</h2>
           <h1 className="text-5xl md:text-7xl text-white leading-tight mb-6 font-serif">
             Master the <br/> <span className="text-pear">Contracts</span> that <br/> Build the Future.
           </h1>
