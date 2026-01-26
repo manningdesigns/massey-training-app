@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Massey On Contracts - Professional Training</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              pear: '#DFE538',
+              navy: '#0A192F',
+              charcoal: '#394256',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body { font-family: 'Inter', sans-serif; }
+      h1, h2, h3, .brand-font { font-family: 'Playfair Display', serif; }
+      
+      /* Elementor-friendly section classes */
+      .training-section { padding: 80px 20px; }
+      .btn-primary { 
+        background-color: #DFE538; 
+        color: #0A192F; 
+        font-weight: 700; 
+        padding: 12px 32px; 
+        border-radius: 4px;
+        transition: all 0.3s ease;
+      }
+      .btn-primary:hover {
+        background-color: #0A192F;
+        color: white;
+      }
+
+      /* PDF / Print Optimization */
+      @media print {
+        .no-print { display: none !important; }
+        nav { display: none !important; }
+        body { background: white !important; -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+        .training-section { padding: 40px 0 !important; page-break-inside: avoid; }
+        section { page-break-after: always; }
+        section:last-child { page-break-after: auto; }
+        a[href]:after { content: none !important; }
+        .shadow-2xl, .shadow-xl { box-shadow: none !important; border: 1px solid #eee !important; }
+        input, select, textarea { border: 1px solid #ccc !important; }
+        .bg-navy { background-color: #0A192F !important; color: white !important; }
+        .text-pear { color: #DFE538 !important; }
+        .bg-pear { background-color: #DFE538 !important; }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-[#F9F9F9] text-navy">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
