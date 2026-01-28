@@ -13,7 +13,6 @@ const Navbar: React.FC = () => {
             src={logoUrl} 
             alt="Massey On Contracts" 
             className="h-16 w-auto"
-            <a href="https://masseyoncon.co.za/" </a>
           />
         </div>
         
