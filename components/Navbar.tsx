@@ -3,7 +3,6 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   const logoUrl = "https://masseyoncon.co.za/wp-content/uploads/2025/07/cropped-MasseyONcontracts-Pear-Colourful-Logo.png"; 
-  <a href="https://masseyoncon.co.za/" </a>
 
   return (
     <nav className="fixed w-full z-50 bg-navy/95 backdrop-blur-sm border-b border-pear/20 py-2 px-6 shadow-xl no-print">
